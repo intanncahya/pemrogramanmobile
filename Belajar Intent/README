@@ -1,0 +1,10 @@
+Intent adalah sebuah objek yang digunakan dalam pengembangan aplikasi Android untuk memfasilitasi interaksi antara komponen aplikasi yang berbeda, seperti aktivitas, layanan, dan penerima siaran (broadcast receiver). Intent digunakan untuk mengirim pesan dari satu komponen ke komponen lain, dengan tujuan untuk memulai tindakan tertentu atau mentransfer data. Intent dibagi menjadi 2 yaitu;
+
+1.	Implicit Intent
+Implicit Intent tidak menyebutkan komponen aplikasi yang akan dipanggil, melainkan hanya menyebutkan tindakan yang akan dilakukan. Implicit Intent digunakan ketika Anda ingin meminta sistem untuk menjalankan aktivitas atau layanan yang dapat dilakukan oleh banyak aplikasi, seperti membuka browser atau aplikasi email.
+
+2.	Explicit Intent
+Explicit Intent menyebutkan komponen aplikasi secara spesifik, seperti aktivitas atau layanan, yang akan dipanggil. Explicit Intent digunakan ketika Anda ingin memanggil komponen aplikasi tertentu di dalam aplikasi Anda sendiri.
+
+Aplikasi ini adalah aplikasi sederhana yang menggabungkan kedua jenis Intent tersebut.
+Dimana nanti ketika tombol "Explicit Intent" ditekan, maka aplikasi akan berpindah ke Activity kedua. Ketika tombol "Implicit Intent" ditekan, maka aplikasi akan membuka browser dan mengarahkan ke situs web Google.
