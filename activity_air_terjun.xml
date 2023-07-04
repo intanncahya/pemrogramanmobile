@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/airterjunnungnung" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Air Terjun NungNung"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lokasi: Sidan, Kec. Petang, Kabupaten Badung, Bali"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Air Terjun Nungnung yang terletak di Kabupaten Badung Bali kini menjadi lokasi persinggahan banyak wisatawan. Tak hanya wisatawan domestik, mereka yang datang ke tempat ini juga adalah para wisatawan mancanegara. Pemandangan eksotis yang bisa dijumpai di lokasi air terjun ini pun sanggup mengalihkan perhatian para wisatawan.
+\nHarga Tiket : Rp7.500 / orang"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonWhatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungi: 087866771948"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="290dp"
+            app:backgroundTint="#4CAF50" />
+    </RelativeLayout>
+
+
+</LinearLayout>
